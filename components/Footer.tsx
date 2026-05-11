@@ -1,4 +1,5 @@
 import {IconHeart, IconMapPin, IconPhone} from "@tabler/icons-react";
+import Image from "next/image";
 
 export default function Footer() {
     return (
@@ -7,9 +8,15 @@ export default function Footer() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12">
                     {/* Info */}
                     <div>
-                        <div className="shrink-0 flex items-center mb-6">
-                            <IconHeart className="h-8 w-8 text-orange-500 mr-2" fill="currentColor" />
-                            <span className="font-bold text-3xl tracking-tight text-white">Mega<span className="text-orange-500">Vet</span></span>
+                        <div className="shrink-0 flex items-center cursor-pointer">
+                            <Image
+                                src="/logo-footer.svg"
+                                alt="MegaVet"
+                                width={300}
+                                height={104}
+                                priority
+                                className="h-12 w-auto object-contain"
+                            />
                         </div>
                         <p className="text-gray-400 mb-6">
                             Suntem soluția ideală pentru animăluțul tău de companie. Experiența, devotamentul și iubirea pentru animale ne ghidează în tot ceea ce facem.

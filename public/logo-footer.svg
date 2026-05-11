@@ -1,0 +1,23 @@
+<svg width="760" height="180" viewBox="0 0 760 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MegaVet transparent logo with dog paw</title>
+  <desc id="desc">Transparent MegaVet veterinary clinic logo with a dog paw mark, designed for dark teal website backgrounds.</desc>
+  <g>
+    <circle cx="90" cy="90" r="70" fill="#0B3A37"/>
+    <circle cx="90" cy="90" r="69" stroke="#2DD4BF" stroke-opacity="0.35" stroke-width="2"/>
+    <g id="dog-paw-mark">
+      <ellipse cx="57" cy="74" rx="12" ry="17" transform="rotate(-24 57 74)" fill="#F97316"/>
+      <ellipse cx="77" cy="53" rx="12" ry="18" transform="rotate(-10 77 53)" fill="#F97316"/>
+      <ellipse cx="103" cy="53" rx="12" ry="18" transform="rotate(10 103 53)" fill="#F97316"/>
+      <ellipse cx="123" cy="74" rx="12" ry="17" transform="rotate(24 123 74)" fill="#F97316"/>
+      <path d="M89.9 82.5C101.8 82.5 116.4 90.8 123.4 105.5C132.4 124.1 121.3 139.2 105.8 136.2C99.4 135 95.8 131.5 90 131.5C84.2 131.5 80.6 135 74.2 136.2C58.7 139.2 47.6 124.1 56.6 105.5C63.6 90.8 78.1 82.5 89.9 82.5Z" fill="#F97316"/>
+      <rect x="84" y="99" width="12" height="30" rx="4" fill="#0B3A37"/>
+      <rect x="75" y="108" width="30" height="12" rx="4" fill="#0B3A37"/>
+    </g>
+  </g>
+  <g aria-label="MegaVet">
+    <text x="190" y="83" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="68" font-weight="850" letter-spacing="-3" fill="#F97316">MEGA</text>
+    <text x="373" y="83" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="68" font-weight="850" letter-spacing="-3" fill="#F8FAFC">VET</text>
+    <text x="193" y="116" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="700" letter-spacing="4.5" fill="#99F6E4">VET &amp; PET CLINIC</text>
+    <text x="193" y="145" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="25" font-weight="500" fill="#99F6E4">Constanța · medicină veterinară · pet hotel</text>
+  </g>
+</svg>

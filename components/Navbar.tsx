@@ -1,8 +1,9 @@
 "use client"
 
 import {useState} from "react";
-import {IconChevronDown, IconHeart, IconMenu, IconPhone, IconX} from "@tabler/icons-react";
+import {IconChevronDown, IconMenu, IconPhone, IconX} from "@tabler/icons-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,8 +15,14 @@ export default function Navbar() {
                 <div className="flex justify-between h-20 items-center">
                     {/* Logo */}
                     <div className="shrink-0 flex items-center cursor-pointer">
-                        <IconHeart className="h-8 w-8 text-orange-500 mr-2" fill="currentColor" />
-                        <span className="font-bold text-3xl tracking-tight text-teal-900">Mega<span className="text-orange-500">Vet</span></span>
+                        <Image
+                            src="/logo.svg"
+                            alt="MegaVet"
+                            width={300}
+                            height={104}
+                            priority
+                            className="h-12 w-auto object-contain"
+                        />
                     </div>
 
                     {/* Desktop Menu */}
