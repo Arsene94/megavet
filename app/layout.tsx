@@ -4,6 +4,7 @@ import "./globals.css";
 import {IconClock, IconMapPin, IconPhone} from "@tabler/icons-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,6 +48,12 @@ export default function RootLayout({
           <Navbar />
           {children}
           <Footer />
+
+          <Script
+              id="cookie-script"
+              src="https://cdn.cookie-script.com/s/35d077fffeb67b311c6ac811a6984854.js"
+              strategy="afterInteractive"
+          />
         </div>
       </body>
     </html>
