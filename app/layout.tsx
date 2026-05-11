@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import {IconClock, IconMapPin, IconPhone} from "@tabler/icons-react";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +27,28 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ro"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <div className="font-sans text-gray-800 bg-slate-50 min-h-screen">
+          <div className="bg-teal-900 text-teal-50 py-2 text-sm hidden md:block">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
+              <div className="flex space-x-6">
+                <span className="flex items-center"><IconMapPin size={16} className="mr-2 text-teal-300" /> Str. Zorelelor nr. 45-47, Constanța</span>
+                <span className="flex items-center"><IconClock size={16} className="mr-2 text-teal-300" /> L-V: 10:00 - 18:00 | S: 10:00 - 15:00 | D: 10:00 - 12:00</span>
+              </div>
+              <div className="font-semibold text-orange-400 flex items-center">
+                <IconPhone size={16} className="mr-2" />
+                0341 173 355
+              </div>
+            </div>
+          </div>
+          <Navbar />
+          {children}
+          <Footer />
+        </div>
+      </body>
     </html>
   );
 }
