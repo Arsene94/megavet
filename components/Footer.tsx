@@ -7,7 +7,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-12">
                     {/* Info */}
                     <div>
-                        <div className="flex-shrink-0 flex items-center mb-6">
+                        <div className="shrink-0 flex items-center mb-6">
                             <IconHeart className="h-8 w-8 text-orange-500 mr-2" fill="currentColor" />
                             <span className="font-bold text-3xl tracking-tight text-white">Mega<span className="text-orange-500">Vet</span></span>
                         </div>
@@ -63,8 +63,8 @@ export default function Footer() {
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
                     <p>&copy; {new Date().getFullYear()} MegaVet Constanța. Toate drepturile rezervate.</p>
                     <div className="flex space-x-4 mt-4 md:mt-0">
-                        <a href="#" className="hover:text-white transition">Politica de Confidențialitate</a>
-                        <a href="#" className="hover:text-white transition">Politica de Cookies</a>
+                        <a href="/politica-de-confidentialitate" className="hover:text-white transition">Politica de Confidențialitate</a>
+                        <a href="/politica-cookie" className="hover:text-white transition">Politica de Cookies</a>
                     </div>
                 </div>
             </div>
